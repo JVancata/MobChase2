@@ -3,6 +3,7 @@ var express = require('express');
 var http = require('http').Server(app);
 var io = require('socket.io')(http);
 app.use(express.static('images'));
+app.use(express.static('js'));
 app.use(express.static('../softik'));
 
 app.get('/', function (req, res) {
