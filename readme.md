@@ -1,3 +1,3 @@
 👾 MobChase game!
 ======
-Javascript browser game with node.js server.
+Old javascript browser game with node.js server.
